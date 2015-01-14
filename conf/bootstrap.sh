@@ -10,3 +10,6 @@ dpkg-reconfigure locales
 
 apt-get install -y git
 
+#install node -> https://github.com/joyent/node/wiki/installing-node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt-get install -y nodejs
